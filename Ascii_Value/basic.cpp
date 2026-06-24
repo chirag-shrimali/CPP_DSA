@@ -26,7 +26,9 @@ int main()
 
     // int ascii = int(ch);
 
-    int ascii = (int)ch;
+    // int ascii = (int)ch; // Explicit Type_Casting...
+
+    int ascii = ch; // Implicit Type_Casting...
 
     cout << ch << endl << ascii;
 
