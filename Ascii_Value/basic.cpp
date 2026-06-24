@@ -18,7 +18,7 @@ using namespace std;
 
 int main()
 {
-    char ch = 'A';
+    // char ch = 'A';
 
     // char ch = 'a';
 
@@ -28,9 +28,27 @@ int main()
 
     // int ascii = (int)ch; // Explicit Type_Casting...
 
+    /*
+
     int ascii = ch; // Implicit Type_Casting...
 
     cout << ch << endl << ascii;
+
+    */
+
+    // ------------------------------------------------------------------------------------------
+
+    // int x = 74;
+
+    // char ch = x; // Implicit Type Casting...
+
+    // ------------------------------------------------------------------------------------------
+
+    int x = 74;
+
+    char ch = (char)x; // Explicit Type Casting...
+
+    cout << ch << endl;
 
     return 0;
 }
