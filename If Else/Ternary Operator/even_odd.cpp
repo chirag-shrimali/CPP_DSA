@@ -17,7 +17,9 @@ int main()
 
     cin >> no;
 
-    (no % 2 == 0) ? cout << "Even" : cout << "Odd";
+    // (no % 2 == 0) ? cout << "Even" : cout << "Odd";
+
+    cout << ((no % 2 == 0) ? "Even" : "Odd");
 
     return 0;
 }
