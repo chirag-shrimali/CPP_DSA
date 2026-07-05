@@ -10,7 +10,7 @@ int main()
 {
     int no;
 
-    cout << "\nEnter the No : ";
+    cout << "\nEnter the No of terms : ";
 
     cin >> no;
 
