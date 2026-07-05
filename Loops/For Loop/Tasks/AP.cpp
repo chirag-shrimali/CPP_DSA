@@ -1,4 +1,4 @@
-// Display this AP(Arithmetic Progression) - 2 , 5 , 8 , 11 , ... upto terms....
+// Display this AP(Arithmetic Progression) - 2 , 5 , 8 , 11 , ... upto N terms....
 
 // Boiler Plate Code...
 
@@ -14,7 +14,9 @@ int main()
 
     cin >> no;
 
-    for (int i = 2 ; i <= no ; i += 3)
+    // an / tn / Tn = a + (no - 1) * d // an = 2 + (no - 1) * 3 // an = 2 + (3 * no - 3) // an = 3 * no - 1
+
+    for (int i = 2 ; i <= (3 * no - 1) ; i += 3) // i = a ; i <= an ; i += d (i = i + d)
 
         cout << i << "\t";
 
