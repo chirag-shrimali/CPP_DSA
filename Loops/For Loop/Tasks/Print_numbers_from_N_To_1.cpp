@@ -14,7 +14,7 @@ int main()
 
     cin >> no;
 
-    for(int i = no ; i >= 1 ; i --) // i = 5 ; 5 >= 1 ; i = i - 1 (i = 5 - 1 = 4) // i = i - 1 // i -= 1 // i--
+    for(int i = no ; i >= 1 ; i--) // i = 5 ; 5 >= 1 ; i = i - 1 (i = 5 - 1 = 4) // i = i - 1 // i -= 1 // i--
     
         cout << i << "\t"; // 5 4 3 2 1
 
