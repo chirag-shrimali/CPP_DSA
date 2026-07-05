@@ -20,9 +20,21 @@ int main()
 
     //     cout << i << "\t";
 
-    for (int i = 1; i <= no; i++)
+    // for (int i = 1; i <= no; i++)
 
-        cout << (3 * i - 1) << "\t";
+    //     cout << (3 * i - 1) << "\t";
 
+    // int a = 2;
+
+    int a = 2 , d = 3;
+
+    for (int i = 1 ; i <= no ; i++) // 1 to n times loops will be iterations...
+    {
+        cout << a << "\t"; // 2 5 ...
+
+        // a += 3; // a = a + 3; // a = 2 + 3 // a = 5
+    
+        a += d; // a = a + d; // a = 2 + 3; // a = 5 
+    }
     return 0;
 }
