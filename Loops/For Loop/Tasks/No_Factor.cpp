@@ -33,7 +33,9 @@ int main()
             if(no % i == 0) 
             {
     
-                cout << i << " " << (no / i) << " ";
+                cout << i << " ";
+                
+                if (i != (no / i)) cout << (no / i) << " ";
     
             }
     }
