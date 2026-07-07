@@ -30,6 +30,8 @@ int main()
 
     if (count == 2) cout << endl << no << " is a Prime No...";
 
+    else if (count < 2) cout << endl << no << " is not a Prime or Composite No...";
+
     else
         cout << endl << no << " is a Composite No...";
 
