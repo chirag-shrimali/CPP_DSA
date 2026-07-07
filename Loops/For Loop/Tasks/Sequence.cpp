@@ -25,13 +25,26 @@ int main()
 
     cin >> no;
 
-    for (int i = 1 ; i <= no ; i++) // i += 1 // i = i + 1
+    // for (int i = 1 ; i <= no ; i++) // i++ // i += 1 // i = i + 1
 
-        cout << i;
+    //     cout << i;
 
-    for (int i = no ; i >= 1 ; i--)
+    // for (int i = no ; i >= 1 ; i--) // i-- // i -= 1 // i = i - 1
 
-        cout << i;
+    //     cout << i;
+
+    int i = 1;
+
+    int j = no;
+
+    while (i <= no)
+    {
+        cout << i << " " << j << " ";
+
+        i++;
+        
+        j--;
+    }
 
     return 0;
 }
