@@ -16,16 +16,18 @@ int main()
 
     int count = 0;
 
-    while (no > 0)
+    if (no == 0) count++;
+
+    while (no != 0)
     {
 
-        no /= 10; // no = no / 10;
+        no /= 10; // no = no / 10
 
-        count++; // count = count + 1 // count += 1
+        count++; // count++ // count = count + 1 // count += 1
     
     }
 
-    cout << "\nTotal Number of Digits are : " << count;
+    cout << "\nThe Total Number of Digits are : " << count;
 
     return 0;
 }
