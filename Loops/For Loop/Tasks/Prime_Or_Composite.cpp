@@ -18,22 +18,42 @@ int main()
 
     cin >> no;
 
+    // 1st Way ------------------------------------------------------------------------------
+
+    // int count = 0;
+
+    // for (int i = 1; i <= no; i++)
+    // {
+    //     if (no % i == 0)
+    //     {
+    //         count++; // count = count + 1; // count += 1
+    //     }
+    // }
+
+    // if (count == 2) cout << endl << no << " is a Prime No...";
+
+    // else if (count < 2) cout << endl << no << " is not a Prime or Composite No...";
+
+    // else
+    //     cout << endl << no << " is a Composite No...";
+
+    // 2nd Way -----------------------------------------------------------------------------
+    
     int count = 0;
 
-    for (int i = 1; i <= no; i++)
+    for (int i = 2 ; i <= (no - 1) ; i++)
     {
-        if (no % i == 0)
+        if(no % i == 0)
         {
-            count++; // count = count + 1; // count += 1
+            count++; // count++ // count = count + 1 // count += 1;
+            
+            break;
         }
     }
-
-    if (count == 2) cout << endl << no << " is a Prime No...";
-
-    else if (count < 2) cout << endl << no << " is not a Prime or Composite No...";
-
-    else
-        cout << endl << no << " is a Composite No...";
+    
+    if (count == 1) cout << endl << no << " is a Composite No...";
+    
+    else cout << endl << no << " is not a Composite No...";
 
     return 0;
 }
