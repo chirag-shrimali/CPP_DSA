@@ -24,10 +24,14 @@ int main()
     
     for (int i = 1 ; i <= b ; i++) // i = 1 to 3 1 , 2 , 3...
     {
+        if (a == 1) break;
+
         mul *= a; // mul = mul * a; // mul = 1 * 2 // mul = 2 
     }
     
-    cout << mul;
+    if (a == 0 && b == 0) cout << "\nIndetermined Forms...";
+
+    else cout << mul;
 
     return 0;
 }
