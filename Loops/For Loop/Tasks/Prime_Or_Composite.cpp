@@ -8,6 +8,8 @@
 
 #include <iostream>
 
+#include <cmath>
+
 using namespace std;
 
 int main()
@@ -57,9 +59,31 @@ int main()
 
     // 3rd Way --------------------------------------------------------------------------
 
+    // bool flag = false; // initially we are consider in the flag variable which data types is bool here stored false means 0 shows number is prime no...
+
+    // <= no - 1 // < no
+
+    // for (int i = 2 ; i <= (no - 1) ; i++) // i++ // i += 1 // i = i + 1
+    // {
+    //     if(no % i == 0)
+    //     {
+        
+    //         flag = true; // this shows that the flag value changed false to true means the given number between 2 to n - 1 is divisible(factors) to another numbers betwwen the 2 to n - 1 thus if any another number we gets we just break here and print if flag value is true then composite number otherwise not a composite number...
+        
+    //         break;
+
+    //     }
+    // } 
+
+    // if (flag == true) cout << endl << no << " is a Composite No..."; // flag == 1
+
+    // else cout << endl << no << " is a Prime No...";
+
+    // 4th Way ---------------------------------------------------------------------
+
     bool flag = false; // initially we are consider in the flag variable which data types is bool here stored false means 0 shows number is prime no...
 
-    for (int i = 2 ; i <= (no - 1) ; i++) // i++ // i += 1 // i = i + 1
+    for (int i = 2 ; i <= sqrt(no) ; i++) // i++ // i += 1 // i = i + 1
     {
         if(no % i == 0)
         {
