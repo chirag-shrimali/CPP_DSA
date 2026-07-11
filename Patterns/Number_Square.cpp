@@ -36,9 +36,15 @@ int main()
 
     // 3rd Way -------------------------------------------------------------------
 
-    for (int i = 1 ; i <= 4 ; i++) // i++ // i += 1 // i = i + 1
+    int n;
+
+    cout << "\nEnter the Value of N : ";
+
+    cin >> n;
+
+    for (int i = 1 ; i <= n ; i++) // i++ // i += 1 // i = i + 1
     {
-        for (int j = 1 ; j <= 4 ; j++)
+        for (int j = 1 ; j <= n ; j++)
         {
             cout << j << " ";
         }
