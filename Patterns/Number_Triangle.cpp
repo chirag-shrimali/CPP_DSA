@@ -1,6 +1,6 @@
 /*
 
-    Print the Following Star Number Patterns...
+    Print the Following Number Triangle Patterns...
 
     1
     1 2
