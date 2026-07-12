@@ -1,6 +1,6 @@
 /*
 
-    Print the Following Alphabet Triangle Patterns...
+    Print the Following Alphanumeric Triangle Patterns...
 
     A
     A B
