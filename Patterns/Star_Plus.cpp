@@ -1,6 +1,6 @@
 /*
 
-    Print the Following Star Square(Odd Value Only) Patterns...
+    Print the Following Star Plus(Odd Value Only) Patterns...
 
         *
         *
