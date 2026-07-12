@@ -29,14 +29,13 @@ int main()
         for (int j = 1; j <= n; j++)
         {
 
-            if(i == (n / 2 + 1) || j == (n / 2 + 1))
+            if (i == (n / 2 + 1) || j == (n / 2 + 1))
 
-            cout << "* ";
+                cout << "* ";
 
             else
-            
-                cout << "  ";
 
+                cout << "  ";
         }
         cout << endl;
     }
