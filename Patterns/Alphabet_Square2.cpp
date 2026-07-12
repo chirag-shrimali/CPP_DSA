@@ -1,6 +1,6 @@
 /*
 
-    Print the Following Star Rectangle Patterns...
+    Print the Following Alphabet Square Patterns...
 
     a b c d
     a b c d
