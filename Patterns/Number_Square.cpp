@@ -1,6 +1,6 @@
 /*
 
-    Print the Following Star Rectangle Patterns...
+    Print the Following Number Square Patterns...
 
     1 2 3 4
     1 2 3 4
